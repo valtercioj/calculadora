@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:black;
+    height:100vh;
+  }
+  main #text{
+      color:white;
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  .container{
+    overflow:hidden;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    height:50vh;
+    width:30vw;
+    flex-wrap:wrap;
+   
+  }
+   #visor{
+    width:100%;
+    text-align:center;
+    font-size: 2.5rem;
+    background-color:white;
+    padding:35px;
+    border:5px solid white;
+    border-radius: 25px;
+  }
+  
+  .container button{
+    border:none;
+    color:white;
+    text-align:center;
+    width:7.5vw;
+    height:10vh; 
+    background-color:black;
+    font-size:35px;
+    font-weight:bolder;
+    cursor: pointer;
+  }
+  
+  .container .signal{
+    color:#FF6900; 
+  }
+  
+  #igual{
+    background-color:#FF6900;
+    text-align:center;
+  }
+  
+  @media (max-width: 320px){
+      .container{
+        width:80vw;
+      }
+      .container button{
+        width:20vw;
+      }
+  }
+
+  @media (max-width: 450px){
+    .container{
+        width:80vw;
+      }
+      .container button{
+        width:20vw;
+      }
+  }
