@@ -12,7 +12,7 @@ Calculadora criada apenas com HTML, CSS e JavaScript
 
 ## 🔖 Layout
 
-Você pode visualizar o projeto através [desse link]().
+Você pode visualizar o projeto através [desse link](https://valtercioj.github.io/calculadora/).
 
 ## :memo: Licença
 
